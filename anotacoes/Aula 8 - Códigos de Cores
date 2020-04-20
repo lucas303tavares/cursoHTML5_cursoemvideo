@@ -1,0 +1,23 @@
+Aula - Código de cores em HTML5
+
+Para utilzar cores da maneira correta utilizando CSS:
+
+Podemos fazer de 2 formas: A primeira é usar o parâmetro sytle:
+
+Por exemplo:
+
+	style="bakground-color: red;"> Muda a cor da página.
+
+A outra forma de formatação é utiliza as configurações globais para modificar a cor da página como foi feito com a formatação de parágrafos. Na área style basta usar o parâmtro background-color: ;
+
+<style>
+
+	body {
+		background-color: #456677; ou rgb(10, 2, 20) ou rgba(0, 0, 0, 1 ou 0); -> utilizando o padrao rgb e rgba para além de colocar as cores em rgb usar um canal afla a para colocar transparencia.
+	}
+
+</style>
+
+	style="background-image: url("fundo.jpg"); -> seleciona uma imagem utilizando css.
+
+

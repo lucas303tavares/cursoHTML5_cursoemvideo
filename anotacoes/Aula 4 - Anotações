@@ -1,0 +1,48 @@
+CURSO DE HTML5 - AULA 4 - PRIMEIRAS TEGUES
+
+TEGUES PRINCIPAIS:
+
+<html lang="pt-br"/>: Essa tegue é muito importante pois ela indica que o documento HTML será portguês do Brasil.
+
+
+<head> </head>: Essa tegue cuidará da parte comportamental do site, ou seja, como ele vai se comportar.
+
+TEGUES DA ÁREA HEAD:
+
+<meta charset="UTF-8"/>: Esse tegue serve para resolver problemas de acentuações nas palavras em PT-BR.
+
+<title> </title>: Cria um título para sua página.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+<body> </body>: Essa tegue fica responsável pela parte visual do site, ou seja, tudo que vai aparecer no site tem que estar nessa tegue.
+
+TEGUES DA ÁREA BODY:
+
+<div id""> </div>: É utilizada para criar uma delimitação no site.
+
+<h1> </h1>: Tudo que estiver entre essa tegue será considerado um título. Além disso, os que estiverem na tegue H2 serão subtítulos de H1, H3 será subtítulo de H2 e assim por diante até o H6.
+
+<hgroup> </hgroup>: Tudo que estiver entre essa tegue será considerado um grupo de títulos. Utilizada para agrupar títulos semelhantes.
+
+<img src="diretório_imagem/nome_imagem.extenção"/>: Com esse tegue é possível inserir imagens na página HTML.
+
+<header id"cabecalho"> </header>: Tegue utilizada especialmente para criar cabeçalhos semânticamente.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+

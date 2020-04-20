@@ -1,0 +1,135 @@
+Aula 10 - Formatação de Imagens com CSS3
+
+---------------------------------------------------------------------------------------------------
+
+<img src="diretorio/nome_imagem.extenção"/>: Com esse comando você pode colocar uma imagem no seu
+site.
+
+
+IMPORTANTE: Toda vez que você quiser editar os estilos de sua página, crie um arquivo chamado estilo em outro diretório e tudo que você for editar no estilo e formatação da página coloque nesse arquivo específico chamado "estilo.css" por exemplo. A primeira coisa a se fazer antes de editar os estilos da página é utilizar:
+
+charset="UTF-8";
+
+---------------------------------------------------------------------------------------------------
+
+INFORMAÇÂO IMPORTANTE: Para chamar a formatação desse arquivo "estilo.css" na página "index" de seu site, vamos ter que usar uma nova tegue específica! Essa tegue vai ser declarada na área <head> de sua página já que nela aparecerá todas as formatações visuais de sua página:
+
+<link> (Sem fechamento): Esse tegue será responsável por conectar o arquivo "estilo.css" ao arquivo "index.html" e toda formatação devidamente e corretamente feita no arquivo "estilo.css" será afetado no arquivo "index.htm".
+
+Parâmentros da tegue <link>:
+
+	rel="stylesheet"> type="text/css" href="_css/estilo.css/>"
+ 
+"stylesheet" quer dizer "folha de estilo" que é justamente o CSS.
+
+"type="text/css" quer dizer que o tipo do arquivo será um texto em css.
+
+"href="diretório/nome_arquivo.extenção": quer dizer "referência a hipertexto que é quando você irá chamar um arquivo de fora.
+
+---------------------------------------------------------------------------------------------------
+
+OBS: No CSS se caso você queira criar um comentário basta usar o /* */. Tudo que estiver entre eles será desconsiderado pelo seu navegador e neles você poderá comentar informações imortantes que você julgue para não se perder nos códigos mais tarde.
+
+---------------------------------------------------------------------------------------------------
+
+Para você começar a formatar suas imagens usando o arquivo "estilo.css" primeiro deve-se criar uma classe para sua tegue <figure> onde sua imagem foi declara no index:
+
+ex: 
+
+	<figure class:"foto-legenda">
+		<img="src:_imagens/glass-quadro-homem-mulher.jpg"/>
+	</figure>
+
+Com esse comando você está dizendo que tudo que fizer parte da classe "foto-legenda" dentro do arquivo "estilo.css" vai ter uma determinada formatação:
+
+ex -> No arquivo "estilo.css":
+
+figure.foto-legenda {
+
+}
+
+Tudo que estiver entre as chaves será considerado formatação das imagens que estiverem dentro da tegue <figure>. Sempre que você for utilizar o parâmetro "class" você irá colocar "nome_tegue.nome_classe". Esse é o padrão de referenciar dentro do CSS.
+
+---------------------------------------------------------------------------------------------------
+
+Alguns comandos de formatação de imagens dentro do CSS:
+
+	
+	border: "largura" "tipo_borda" "cor_borda"; cria uma borda ao redor da imagem.
+
+	width: "porcentagem%"; ajusta a largura.
+
+	heigth: "porcentagem%"; ajusta a altura.
+
+	box-shadow: "desloc_horizonatalpx" desloc_verticalpx" "espalhamentopx" "cor"; cria uma sombra 		em volta da borda da imagem.
+
+	position: absolute; fará com que tudo que estiver entre essa tegue tenha uma posição absoluta 		dentro do seu container que nesse exemplo será uma borda branca declarada.
+	
+	top: 0px; 
+
+	position: relative; faz com que tudo que estiver entre ele tenha uma posição relativa ao
+	código html, ou seja, onde está a imagem que está sendo formatada na página.
+
+	background-color: "cor"; coloca uma cor dentro da imagem.
+
+	color: "cor"; coloca uma cor em um texto.
+
+	pading: cria uma espaço dentro de uma imagem.
+
+	box-sizing: border-box; isso vai criar um box dentro da borda da imagem.
+
+	opacity: 0 ou 1; formata a transparência de algo.
+
+	transition: opacity 1s; cria uma pequena transição para exibir ou esconder o conteúdo de sua 		imagem.
+
+	
+IMPORTANTE: Quando você quiser que uma imagem mostre a sua legenda assim que o usuário passar o mouse em cima dela basta usar o parâmetro "houver" no CSS. Ex:
+
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

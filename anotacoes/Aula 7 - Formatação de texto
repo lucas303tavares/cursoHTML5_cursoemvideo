@@ -1,0 +1,139 @@
+Aula 7 - FORMATAÇÃO DE TEXTO EM HTML
+
+OBS IMPORTANTE: A partir da vesão 5 do HTML, ele parou de prestar atenção na formatação. Agora, o HTML5 se foca na semântica, ou seja, o significado das coisas. A CSS que vai se focar na formatação e estilo da página.
+
+-------------------------------------------------------------------------------------------------------
+
+<b> </b>: Essa tegue coloca uma palavra em negrito.
+
+<i> </i>: Essa tegue coloca uma palavra em italico.
+
+<em> </em>: Tudo que estiver nessa tegue será considerado uma palavra em ênfase, além da palavra inclina em intalico. Isso vai informar aos navegadores de que você quer enfatizar esse termo.
+
+<del> </del>: Essa tegue vai indicar que é um texto que foi deletado.
+
+--------------------------------------------------------------------------------------------------------
+
+Agora, vamos seguir as novas normas do HTML5 e começar a formatar o texto:
+
+<span> </span>: Essa tegue pode ser utilizada para formatar pequenos trechos de texto.
+
+Alguns parâmetros da tegue span: style="text-decoration: ;"
+
+	style="text-decoration: underline;" -> esse comando faz com uma palavra fique sublinhada na nova maneira de formatar textos no HTML5.
+
+	style="text-decoration: overline;" -> utilizada para colocar uma linha acima do texto;
+
+	style="text-decoration: line-through;" -> utilizado para colocar uma palavra como deletada, porém sem o resultado semântico da tegue <del>.
+
+	style="text-decoration: none;" -> gera um texto sem formatação alguma. 
+
+--------------------------------------------------------------------------------------------------------
+
+Outros parâmetros: style: "font-weight: ;" -> esse parâmetro vai indicar qual será a quantidade de negrito que o texto terá.
+
+	style="font-weight: normal;" -> gera um texto com formatação normal.
+
+	style="font-weight: bold;" -> gera um resultado em negrito.
+
+	style="font-weight: bolder;" -> gera um resultado mais negrito que o negrito.
+
+Nesse parâmetro há também a possibilidade de ajustar o nível de negrito colocando um valor entre 100 e 900 de acordo com sua preferência. Por exemplo:
+
+	style="font-weight:100;" -> aqui será colocado o menor nível de negrito.
+
+--------------------------------------------------------------------------------------------------------
+
+
+Formatação de texto (Centralizar, Justificar, etc):
+
+
+Parâmetro:
+
+	style="text-align: center;" -> centraliza um texto no meio da página.
+
+	style="text-align: right;" -> coloca um texto a direita da página.
+
+	style="text-align: left;" -> coloca um texto a esqueda da página.
+
+	style="text-align: justify;" -> justifica um texto.
+
+
+--------------------------------------------------------------------------------------------------------
+
+OBS MUITO IMPORTANTE: Caso você queira formatar vários título e paragrafos sem ter que ficar repetindo tegue por tegue, basta que você modifique a configuração global da formatação dos mesmos na tegue <head>. Por exemplo:
+
+Na área <head </head>, vamos colocar uma tegue <style> </style>. Tudo que estiver entre essa tegue será a configuração de estilo para essa página. Dentro da tegue <style>, vamos criar uma formatação genérica para formatação dos paragrafos conforme exemplo abaixo:
+
+	<style>
+		
+		p {
+			text-align: justify;
+			text-ident: 50px;
+		}
+	
+	</style>
+
+Tudo que estiver dentro de p será considerado formatação para todos os paragrados do seu texto. Dessa forma você fará a formatação apenas uma vez e ela alcançará todos os parágrafos que foram declados em sua página. Perceba também que com os pamêtros dentro formatação de p farão com o texto fique justificado e com uma identação de 50px.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Outros exemplos de formatação:
+
+<sup> </sup>: tudo que estiver entre essa tegue ficará sobreescrito na página.
+
+<sub> </sub>: tudo que estiver entre essa tegue ficará subescrito na página.
+
+Caso você queira escrever um código: Código abaixo em C++ por exemplo:
+
+<code>
+#include
+int main (){
+	count << "Olá, Mundo!";
+	return 0;
+}
+</code>
+
+Com essa tegue você estará dizendo ao seu navegador que você está informando um trecho de código. Porém para que se possa gerar um resultado visual melhor temos que combiná-la com uma outra tegue, que é a tegue:
+
+<pre> </pre>: tudo que estiver entre essa tegue será considerado pré-formatado, considerando os espaços, e tudo mais.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

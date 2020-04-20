@@ -1,0 +1,75 @@
+Aula 12 - Links em HTML5
+
+--------------------------------------------------------------------------------------------
+
+Todo site possuí links em alguma palavra que desviam o usuário para outra página. Nessa aula, 
+veremos como colocar esses links de maneira correta no seu site.
+
+Para criar um link teremos que usar uma tegue especial:
+
+<a> </a>: essa tegue significa âncora. Ela é a base para criação do link. 
+
+IMPORTANTE: Para que ele funcione corretamente, teremos que usar o parâmetro href="" que vai 
+referenciar o link a um determinado arquivo hipertexto que você indicar. Ex:
+
+<a href="http://glass.google.com">Project Glass</a>
+
+Com o comando acima sua página vai pegar a palavra "Project Glass" e transforma-la 
+em um link com a tegue <a> e irá referenciá-la para o site oficial do google glass toda 
+vez que o usuário clicar no link.
+
+OBS: SEMPRE que você for fazer referência a um site externo a seu site utilize sempre a 
+referência do protocolo HTTP:// pois ele é importante para que tudo funcione corretamente.
+
+---------------------------------------------------------------------------------------------
+
+OUTRO PARÂMETRO da tegue <a>:
+
+	target="blank" -> com esse parâmetro toda vez que o usuário clicar em 
+"Project Glass" a página do google glass abrirá em outra aba do navegador evitando 
+com ela seja aberta na mesma aba do seu site. Ex:
+
+	<a href="http://glass.google.com" target="_blank">Project Glass</a>
+
+IMPORTANTE: Usar o parâmetro "target" dentro da tegue <a> é muito importante, pois 
+quando o usuário acessa seu site e é desviado para outra página na mesma aba da sua 
+página ele provavelmente não voltará a navegar no seu site. Por isso é essencial usar 
+esse parâmetro justamente para quando o usuário clicar no link, o navegador abrir uma 
+nova página o direcionando para a página específica do link em questão.
+
+---------------------------------------------------------------------------------------------
+OUTRO PARÂMETRO da tegue <a>:
+
+Caso você queira que a página do google glass seja aberta na aba do seu site basta 
+usar o parâmetro "_self". Ex:
+
+		<a href="http://glass.google.com" target="_self">Project Glass</a>
+
+Dessa forma ele vai abrir a página do google glass na mesma aba da sua página.
+
+---------------------------------------------------------------------------------------------
+
+DICA IMPORTANTE: Caso o link que você esteja referenciando for interno não utilizar o 
+parâmetro target. Exemplo: Seu site tem um menu com algumas opções e ao clicar em uma
+dessas opções o usuário será disviado para uma outra página dentro do seu site. 
+Recomenda-se não utilizar esse parâmetro pois se a cada clique no menu que o usuário
+der abrir uma nova aba ele pode acabar se irritando e saindo do seu site.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

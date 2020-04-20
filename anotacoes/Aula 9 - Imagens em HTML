@@ -1,0 +1,11 @@
+Aula 9 - Imagens em HTML
+
+-----------------------------------------------------------------------------------------------------
+
+<img src = "caminho da imagem/nome da imagem.extenção"/> -> tegue para inserir uma imagem
+
+<figure> <figure>: Toda imagem que fizer parte de um conteúdo vai ser colocada dentro dessa tegue.
+
+OBS: Dentro da tegue <figure> você pode criar uma outra tegue chamada:
+<figcaption> </figcaption> 
+para adicionar uma legenda a imagem.

@@ -1,0 +1,37 @@
+AULA 5 - CURSO DE HTML5 - ANOTAÇÕES
+
+PARÁGRAFOS, QUEBRAS E SÍMBOLOS ESPECIAIS
+
+-------------------------------------------------------------------------------------------------------
+
+TEGUES e COMANDOS:
+
+<br/> Essa tegue é utilizada para quebrar uma linha na página HTML. Cada uso dessa tegue gerará uma quebra de linha.
+
+&nbsp; Esse comando significa "Espaço sem Quebra". Ela é utilizada para dar um espaçamento entre palavras na página.
+
+<p> </p>: Essa tegue indica que o texto que está entre elas é um parágrafo.
+
+<wbr/>: Utilizada para quebrar uma palavra na página HTML.
+
+&shy: Significa que o texto terá uma hifeinzação rápida.
+
+-------------------------------------------------------------------------------------------------------
+
+ALGUNS SÍMBOLOS ESPECIAIS NO HTML5:
+
+
+&lt: símbolo <
+&gt: símbolo >
+&le: símbolo <=
+&ge: símbolo >=
+
+&pound: símbolo monetário de libras
+&yen: símbolo monetário de ienes
+&euro: símbolo monetário de euros
+
+&copy: Símbolo de copyrigth
+&reg: símbolo de marca registrada
+&trade: símbolo de trademarca
+
+ 

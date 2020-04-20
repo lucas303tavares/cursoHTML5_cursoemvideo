@@ -1,0 +1,102 @@
+Aula 11 - Listas em HTML5
+
+-----------------------------------------------------------------------------------------------------
+
+<nav> </nav>: essa tegue é nova no html5 e vai criar uma área de navegação no site, utilizada para formatação de menus interativos que você queira criar em sua página. Tudo que estiver entre essa tegue será considerado o menun de navegação.
+
+-----------------------------------------------------------------------------------------------------
+
+LISTAS: no HTML5, existem 2 tipos de listas:
+
+	-> Ordered lists - <ol> </ol>: são as listas ordenadas 
+
+	-> Unordered lists - <ul> </ul>ul: sao as listas não ordenadas
+
+Dentro de cada lista, teremos os itens de listas que correspondem ao termo em inglês:
+
+	-> List items - <li> </li>: são os itens de sua lista.
+
+-----------------------------------------------------------------------------------------------------
+
+PARÂMETROS DE NAVEGAÇÃO DA TEGUE <ol>:
+
+Existem basicamente 3 tipos de listas ordendas que são:
+
+<ol type="1"> </ol>: é o tipo padrão com a numeração sequencial.
+
+<ol type="a"> </ol>: é o tipo com ordenação alfabética.
+
+<ol type="I"> </ol>: é o tipo com ordenação em números romanos.
+
+
+OBS IMPORTANTE:
+
+Caso você queira indicar de qual número ou letra irá começar a sua lista, você terá que fazer algumas pequenas modificações simples, você terá que usar o parâmetro "start":
+
+Ex:
+
+	<ol type="1" start="3"> </ol>
+
+O comando acima indica que sua lista é numérica e começa no número 3. Isso vale tanto para letras, quanto para números. Utilizando letra por exemplo ficaria:
+
+	<ol type="a" start="3"> </ol>
+
+IMPORTANTE: Você deve perceber que tanto usando letras ou números, o parâmetro "start" só vai aceitar valores numéricos, mesmo que a lista seja alfabetica ou em números romanos. 
+
+-----------------------------------------------------------------------------------------------------
+
+
+PARÂMETROS DE NAVEGAÇÃO DA TEGUE <ul>:
+
+Basicamente, existem 3 tipos também:
+
+<ul type"square"> </ul>: transforma a lista em pequenos quadrados;
+
+<ul type"circle"> </ul>: transoforma a lista em pequenos circulos com a borda preta e fundo branco;
+
+<ul type"disc"> </ul>: transforma em pequenos círculos com o fundo preto;
+
+-----------------------------------------------------------------------------------------------------
+
+Vale lembrar que se você quiser, você pode colocar listas ordenadas e vice-versa dentro de listas não ordenadas e vice-versa também.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
